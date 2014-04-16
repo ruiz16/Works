@@ -1,0 +1,51 @@
+ul.menu, ul.menu ul{
+list-style:none;
+margin:0px;
+padding:0px;
+}
+
+
+ul.menu{
+	text-align:center;
+	position:relative;
+	z-index:33;
+	font-size:15px;
+	text-transform:uppercase;
+	background-color:#CCC;
+}
+
+ul.menu{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%; /* Main Menu Item widths */
+}
+ 
+ul.menu li{
+	position: relative;
+	border-bottom:1px solid rgba(127,127,127,0.3);
+	
+}
+
+.active {
+	color: #00F !important;
+	background: #FCA700;
+}
+
+
+/* Top level menu links style */
+ul.menu li a, ul.menu li a{
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-shadow:#666;
+	padding:10px 25px;
+	font-family: 'Oswald', Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+ul.menu li a:hover, ul.menu li a:hover{
+	background: #FCA700;
+	color: #6F0;
+}

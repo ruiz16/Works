@@ -1,0 +1,262 @@
+body {
+	color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	background-color: #B5B55B;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	overflow-y: scroll;
+	background-image: url(../images/fondo.jpg);
+	background-position: 330px;
+	background-repeat: repeat-y;
+}
+
+
+p, ul, ol, dl, table, fieldset, blockquote, pre, code {
+}
+
+/* headings
+------------------------------------------------------*/
+h1, h2, h3, h4, h5{
+	color:#fff;
+	font-family: 'Oswald', Arial;
+	font-weight:300;
+	margin-bottom:20px;
+}
+
+h1 {
+	font-size:30px;
+}
+h2 {
+	font-size:27px;
+	font-weight:300;
+	color: #000;
+}
+h3 {
+	font-size:23px;
+	font-weight:300;
+	color: #000;
+}
+h4 {
+	font-size: 24px;
+	color: #F00;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 11px;
+}
+hr {
+	border: 0 #ccc solid;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+hr {
+	border: 1px solid #eee;
+	width: 100%;
+	color: #eee;
+	height: 1px;
+}
+p {
+	color:#000;
+	padding-bottom:10px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+strong{
+	color:#838383;
+}
+
+
+.v_space{
+	padding:0px 0px 40px 0px !important;
+	overflow:hidden;
+}
+
+/* dvLoading Section
+----------------------------------------------------------------------------------------------------*/
+#dvLoading{
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	z-index: 9991;
+	background:#fff url(../images/page_loader.gif) no-repeat center center;
+	width:100%;
+	height:100%;
+ 
+}
+
+#page_wrapper{
+width:1000px;
+}
+
+/* leftSide Section
+----------------------------------------------------------------------------------------------------*/
+#leftSide {
+	position:fixed;
+	float:left;
+	width:250px;
+	height: 96%;
+	text-align:center;
+	z-index:100000;
+	background-color: #CCC;
+	margin:0;
+	line-height: 40px;
+
+}
+#logo {
+	position:relative;
+	display:block;
+	padding-bottom: 0px;
+
+}
+
+#sidebarmenu > li {
+	display:block;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin 0px;
+}
+
+#sidebarmenu > li a {
+	display:inline-block;
+	font-family: 'Oswald', Arial;
+	color:#686563;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/* splash Section
+----------------------------------------------------------------------------------------------------*/
+#splash_page {
+	 position:absolute;
+	 width: 800px;
+	 height:400px;
+	 top: -900px;
+	 padding:30px;
+	 font-size:2.5em;
+	 line-height:1.2em;
+	 text-shadow:1px 1px 1px #000;
+}
+#splash_page h1 {
+	font-size:2.10em;
+	line-height:1.1em;
+	font-weight:bold;
+}
+#splash_page h2 {
+	font-size:1em;
+	line-height:1.3em;
+	font-weight:bold;
+}
+
+#splash_page h3 {
+	font-size:18px;
+		 line-height:1.3em;
+}
+#splash_page strong {
+	color:#d05056;
+}
+
+.contact_no{
+font-weight:bold;
+
+
+}
+
+.contact_no span{
+color:#d05056;
+} 
+
+.contact_no h4{
+font-size:2em;
+} 
+
+/* content Section
+----------------------------------------------------------------------------------------------------*/
+#page_wrapper{
+
+}
+
+.contWrapper {
+	float:right;
+	width:750px;
+	display:table;
+	z-index:0;
+	position:relative;
+}
+#content {
+	display:block;
+	position:relative;
+	min-height:735px;
+	font-weight: bold;
+}
+
+#content > ul > li {
+	position:absolute;
+	left:-1500px;
+	width:690px;
+	padding:30px 35px 30px 135px;
+	opacity:10;
+}
+
+
+ul.list{
+	margin-top:0px;
+}
+
+ul.list li{
+	margin-bottom:10px;
+	padding-bottom:10px;
+	font-weight:normal;
+	font-size:13px;
+	border-bottom:1px solid #333333;
+
+}
+
+
+.list a span {
+    color: #d05056;
+    float:right;
+    font-size: 14px;
+	font-weight:bold;
+}
+
+.title-wrapper {
+
+    background-position: 0 10px;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    text-align: center;
+	margin-bottom:20px;
+}
+
+
+.title-wrapper h2 {
+    background-color: #d05056;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Oswald',sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+span.roll {
+    height:200px;
+    position: absolute;
+    width:200px;
+    z-index:1;
+	opacity:0;
+}
+
+.portfolio_list span.roll{
+width:210px;
+height:210px;
+}
